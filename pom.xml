@@ -58,6 +58,6 @@
 	<parent>
 		<groupId>nl.pvanassen</groupId>
 		<artifactId>parent</artifactId>
-		<version>0.2-SNAPSHOT</version>
+		<version>0.2</version>
 	</parent>
 </project>
