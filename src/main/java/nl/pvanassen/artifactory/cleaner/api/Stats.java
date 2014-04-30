@@ -3,8 +3,10 @@ package nl.pvanassen.artifactory.cleaner.api;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
 
-class Stats {
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class Stats {
     private String uri;
     private String lastDownloaded;
     private int downloadCount;

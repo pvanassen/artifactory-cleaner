@@ -2,6 +2,9 @@ package nl.pvanassen.artifactory.cleaner.api;
 
 import java.util.Arrays;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class FolderInfo {
 
     public static final class Children {

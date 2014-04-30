@@ -3,6 +3,9 @@ package nl.pvanassen.artifactory.cleaner.api;
 import org.joda.time.DateTime;
 import org.joda.time.format.ISODateTimeFormat;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class FileInfo {
 
     public static class Checksums {
